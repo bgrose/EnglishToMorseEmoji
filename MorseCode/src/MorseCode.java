@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-public class MorseCode {
+public class Main {
 	public static void main(String[] args){
 
 	    char[] english = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
@@ -23,6 +23,8 @@ public class MorseCode {
 
 	    Scanner keyboard = new Scanner(System.in);
 
+	    do
+	    {
 	    System.out.println(" This is an English to Morse Code Translator.  ");
 	    System.out.println(" Please enter what you would like translate ");
 	    System.out.println("             into Morse Code. ");
@@ -43,5 +45,7 @@ public class MorseCode {
 	        }
 	    }
 	    System.out.println(str);
+	    System.out.println("\n\n");
+	    }while(1==1);
 	} 
 }
